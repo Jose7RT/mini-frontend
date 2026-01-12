@@ -57,3 +57,28 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+## Instalar Angular
+```sh
+# Install the Angular CLI
+sudo npm install -g @angular/cli
+```
+
+## Instalar Node.js
+```sh
+# Descarga e instala nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# en lugar de reiniciar la shell
+\. "$HOME/.nvm/nvm.sh"
+
+# Descarga e instala Node.js:
+nvm install 25
+
+# Verifica la versión de Node.js:
+node -v # Debería mostrar "v25.2.1".
+
+# Verifica versión de npm:
+npm -v # Debería mostrar "11.6.2".
+```
